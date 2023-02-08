@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>My Portfolio</h2>
+    <div class="column">
+      <img src=" New folder/lnlto1.jpg style="width:100%">
+      <p>Nkem Okoro</p>
+    </div>
+    <div class="column">
+      <h2>Navigation</h2>
+      <div>
+        <a href="#about">About</a>
+        <br>
+        <a href="#work">Work</a>
+        <br>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="column">
+      <h2 id="about">About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tellus at scelerisque semper, risus magna volutpat leo, id tincidunt ligula odio et nisl. Maecenas aliquam pretium lectus, vel placerat dui porttitor id. </p>
+    </div>
+    <div class="column">
+      <h2 id="work">Work</h2>
+      <div>
+        <img src="work1.jpg" style="width:50%">
+        <img src="work2.jpg" style="width:50%">
+        <img src="work3.jpg" style="width:50%">
+      </div>
+    </div>
+    <div class="column">
+      <h2 id="contact">Contact</h2>
+      <p>Email: name@example.com</p>
+    </div>
+  </body>
+</html>
