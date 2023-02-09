@@ -1,0 +1,17 @@
+/* Style the column containing the navigation links and the contact */
+.column {
+    float: left;
+    width: 20%;
+    padding: 15px;
+  }
+  
+  /* Style the images inside the work section */
+  .column img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Make the first image of the work section larger */
+  .column img:first-child {
+    width: 70%;
+  }
